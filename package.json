@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "vitest": "^4.1.9"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "npm --prefix ./api-design-node-v5-main run dev",
+    "start": "npm --prefix ./api-design-node-v5-main run start",
+    "test": "npm --prefix ./api-design-node-v5-main run test",
+    "test:watch": "npm --prefix ./api-design-node-v5-main run test:watch",
+    "test:coverage": "npm --prefix ./api-design-node-v5-main run test:coverage"
+  }
+}
